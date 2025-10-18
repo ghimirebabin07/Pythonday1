@@ -1,0 +1,3 @@
+Hello it's me Babin Ghimire
+  I ma learning file handling in pythonThe file handling is so powerfull and best
+The file is close authomatically
