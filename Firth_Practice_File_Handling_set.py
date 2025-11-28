@@ -16,7 +16,8 @@ f = open("first file.txt","r") #open in r mode for read the file
 content = f.read()
 print("File content:")
 print(content)
-f.close()#close the file after reading 
+f.close()#close the file after reading \
+
 print("The file is sucessfully closed after reading ") 
 
 

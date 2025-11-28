@@ -29,12 +29,12 @@ with open("example.txt","r") as g:
 with open("example.txt", "r") as g:
     lines = g.readlines()
 
-print("📋 File as List of Lines:")
+print(" File as List of Lines:")
 print(lines)
 
 # File Cursor: seek() and tell()
-# 🧠 tell() → gives current position
-# 🧠 seek(pos) → moves the cursor to a given position (e.g., start, middle)
+#  tell() → gives current position
+#  seek(pos) → moves the cursor to a given position (e.g., start, middle)
 with open("example.txt", "r") as g :
     print("Current position:", g.tell())   # Start position (0)
     g.read(5)                              # Read 5 characters
@@ -51,12 +51,12 @@ with open("example.txt", "r") as g :
         writer.writerow(["Sanjana",17,"Udayapur"])
     print("CSV file written Successfully")
     #Reading csv file 
-    import csv
-    with open ("First CSV file.txt","r") as file:
+import csv
+with open ("First CSV file.txt","r") as file:
         reader = csv.reader(file)
         for row in reader: 
             print(row)
-    print("CSV file is readed successfully")
+print("CSV file is readed successfully")
 
 import csv
 
@@ -130,7 +130,7 @@ else:
 
 finally:
     # Always executed — whether an error occurred or not
-    print("🔚 File operation completed!")
+    print("File operation completed!")
     if 'file' in locals() and not file.closed:
         file.close()
         print(" File closed properly.")
